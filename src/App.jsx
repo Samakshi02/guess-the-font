@@ -446,10 +446,18 @@ function MonitorBezel({ children }) {
           <CRTOverlay />
           {children}
         </div>
-        <div className="monitor-controls">
-          <div className="monitor-knob" />
-          <div className="monitor-knob" />
-          <div className="monitor-led" />
+        <div className="monitor-footer">
+          <span className="monitor-credit">
+            Made by{' '}
+            <a href="https://samakshigoel.com/" target="_blank" rel="noopener noreferrer">
+              Sam
+            </a>
+          </span>
+          <div className="monitor-controls">
+            <div className="monitor-knob" />
+            <div className="monitor-knob" />
+            <div className="monitor-led" />
+          </div>
         </div>
       </div>
     </div>

@@ -51,6 +51,7 @@ body {
 .monitor-outer {
   width: 100%;
   height: 100vh;
+  height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,6 +65,7 @@ body {
   max-width: 860px;
   height: 100%;
   max-height: 100vh;
+  max-height: 100dvh;
   display: flex;
   flex-direction: column;
   background: linear-gradient(170deg, #2C2C2C 0%, #1A1A1A 40%, #141414 100%);
@@ -117,6 +119,7 @@ body {
   justify-content: space-between;
   padding: 6px 16px;
   flex-shrink: 0;
+  min-height: 28px;
 }
 
 .monitor-credit {
@@ -927,6 +930,15 @@ body {
   .lb-col-date {
     width: 90px;
     font-size: 0.8rem;
+  }
+
+  .monitor-footer {
+    padding: 4px 10px;
+  }
+
+  .monitor-credit {
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
   }
 }
 

@@ -270,7 +270,7 @@ function generateFunFacts(stats) {
 /* ═══════════════════════════════════════════════════════════════
    SHARE HELPERS
    ═══════════════════════════════════════════════════════════════ */
-const SHARE_URL = 'https://guessthefont.game'
+const SHARE_URL = 'https://guess-the-font-game.vercel.app/'
 
 function getShareText(score, accuracy, bestStreak) {
   const pct = Math.round((accuracy / TOTAL_ROUNDS) * 100)
